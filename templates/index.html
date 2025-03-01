@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>笔记卡片生成器 | notecard.wangbin.run</title>
-     <meta name="description" content="notecard.top, 开源免费自定义精美的笔记卡片">
-    <meta name="keywords" content="书签模板,精美卡片,书摘分享,小红书模板,书签模板,书签制作,日签制作">
+    <title>知乎笔记卡片生成器 | notecard.zhihu.blog</title>
+     <meta name="description" content="notecard.zhihu.blog, 知乎笔记卡片生成器">
+    <meta name="keywords" content="知乎,精美卡片,知乎笔记,知乎笔记卡片,知乎笔记卡片生成器,卡片生成器,笔记卡片生成器">
     <meta name="robots" content="index, follow">
      <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='images/favicon.ico') }}">
     <link id="theme-stylesheet"  rel="stylesheet" href="{{ url_for('static', filename='card.css') }}">
@@ -61,7 +61,7 @@
                         <!-- Nickname 和 Date -->
                         <div class="nickname-date">
                             <div class="nickname">
-                                <p id="nickname" contenteditable="true">小王同学</p>
+                                <p id="nickname" contenteditable="true">知乎博客</p>
                             </div>
                             <div class="date-container">
                                 <p id="date-text" contenteditable="true">摘录于  </p>
@@ -76,11 +76,8 @@
                         <div class="card-content" id="card-content">
                             <p id="content" contenteditable="true" style="white-space: pre-wrap; word-wrap: break-word;">路虽远行则将至<br>事虽难做则必成<br><br>Stay hungry<br>Stay foolish</p>
                         </div>
-                        <div class="source">
-                                <p id="source" contenteditable="true">热爱可抵岁月漫长 </p>
-                            </div>
                         <div class="author">
-                            <p id="author" contenteditable="true">王彬独立博客 </p>
+                            <p id="author" contenteditable="true">知乎笔记卡片生成器 </p>
                         </div>
 
                     </div>
@@ -91,18 +88,18 @@
                         <div class="footer-left">
 
                             <div class="notecard">
-                                <p id="notecard" contenteditable="true">wangbin.run  </p>
+                                <p id="notecard" contenteditable="true">zhihu.blog </p>
                             </div>
                         </div>
                         <!-- QR Code -->
                         <div class="qr-code">
-                            <img id="qrCodeImage" src="{{ url_for('static', filename='images/qr_code.png') }}" alt="笔记卡片制作">
+                            <img id="qrCodeImage" src="{{ url_for('static', filename='images/qr_code.png') }}" alt="知乎笔记卡片生成器">
                             <input type="file" id="qr-code-input" accept="image/*" style="display: none;">
                         </div>
                     </div>
 </div>
             </div>
-            <a id="github" href="https://wangbin.run" title="了解更多关于笔记卡片网站的信息" target="_blank">王彬的独立博客</a>
+            <a id="github" href="https://zhihu.blog" title="了解更多关于笔记卡片网站的信息" target="_blank">知乎博客</a>
         </div>
 
         <!-- Right Side Settings (No Change Needed) -->
